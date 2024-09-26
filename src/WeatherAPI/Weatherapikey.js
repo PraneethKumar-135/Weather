@@ -1,9 +1,10 @@
-import axios from 'axios'
+
 import React, { useState } from 'react'
 import cold from '../Cold.jpg'
 import Heat from '../Heat.jpg'
 import cloudy from '../Cloudy.jpg'
 import '../index.css'
+import axios from 'axios'
 
 
 const Weatherapikey = () => {
