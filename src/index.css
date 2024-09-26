@@ -5,7 +5,23 @@
 
 
 
-body{
+body {
+
     background-color: black;
     color: white;
+}
+
+/* Custom Scrollbar */
+@layer utilities {
+    .custom-scrollbar::-webkit-scrollbar {
+        width: 8px;
+        /* Width of the scrollbar */
+    }
+
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+        background-color: black;
+        /* Scrollbar color */
+        border-radius: 10px;
+        /* Rounded corners */
+    }
 }
